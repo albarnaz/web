@@ -11,6 +11,10 @@ class Api::SongsController < Api::BaseController
 
   end
 
+  def hejda
+
+  end
+
   def show
     @song = Song.find(params[:id])
     Song.increment_counter(:visits, @song)

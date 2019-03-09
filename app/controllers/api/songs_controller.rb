@@ -2,8 +2,8 @@ class Api::SongsController < Api::BaseController
   load_permissions_and_authorize_resource
 
   def index
-      
-      
+
+
      abcde
     @songs = Song.order(title: :asc)
     render json: @songs,
@@ -19,6 +19,6 @@ class Api::SongsController < Api::BaseController
     render json: @SongSerializer.
 
 # lololololol
+    render json: @SongSerializer.
   end
 end
-

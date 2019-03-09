@@ -9,7 +9,7 @@ class Api::SongsController < Api::BaseController
 
   def show
     @song = Song.find(params[:id])
-    Song.increment_counter(:hej, @song)
+    Song.increment_counter(:vistits, @song)
     render json: @song,
     serializer: Api::SongSerializer::Show # Returns all relevant fields
   end

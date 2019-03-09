@@ -14,4 +14,8 @@ class Api::SongsController < Api::BaseController
     serializer: Api::SongSerializer::Show # Returns all relevant fields
   end
 end
+<<<<<<< HEAD
 # Lol olof e dålig
+=======
+# Owo "nuzzle"
+>>>>>>> b2ff6bae7cc00c039ac7c801dd5f6b013496d535

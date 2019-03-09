@@ -14,5 +14,7 @@ class Api::SongsController < Api::BaseController
     render json: @song,
     serializer: Api::SongSerializer::Show # Returns all relevant fields
     render json: @SongSerializer.
+
+# lololololol
   end
 end

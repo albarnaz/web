@@ -19,6 +19,6 @@ class Api::SongsController < Api::BaseController
     render json: @SongSerializer.
 
 # lololololol
-    render json: @SongSerializer.
+
   end
 end

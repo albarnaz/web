@@ -7,13 +7,13 @@ class Api::SongsController < Api::BaseController
     each_serializer: Api::SongSerializer::Index # Returns id and title
   end
 
-  def hejda
-
-  end 
-
   def hej
 
   end
+
+  def hejda
+
+  end 
 
   def show
     @song = Song.find(params[:id])

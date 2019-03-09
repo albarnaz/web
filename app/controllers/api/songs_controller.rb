@@ -15,6 +15,7 @@ class Api::SongsController < Api::BaseController
     Song.increment_counter(:visits, @song)
     render json: @song,
     serializer: Api::SongSerializer::Show # Returns all relevant fields
+# lololololol
   end
 end
 

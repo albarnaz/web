@@ -7,6 +7,10 @@ class Api::SongsController < Api::BaseController
     each_serializer: Api::SongSerializer::Index # Returns id and title
   end
 
+  def hej
+
+  end
+
   def show
     @song = Song.find(params[:id])
     Song.increment_counter(:visits, @song)
